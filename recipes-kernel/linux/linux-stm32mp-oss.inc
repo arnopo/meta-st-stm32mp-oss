@@ -9,6 +9,7 @@ include linux-stm32mp-sign-kernel.inc
 
 SRC_URI += " \
     file://0001-ARM-STM32MP15-support-of-Preemptible-Kernel.patch \
+           file://0016-rpmsg-virtio-overwrite-dst-add-on-ept-callback-if-se.patch \
     "
 
 PV = "${LINUX_VERSION}"
